@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  h1= 'Caremerge Interview'
+  if addresses.length == 0
+    h2= 'No Addreses'
+  else
+    ul
+    for address in addresses
+        li=address.url + '  ==>  ' + address.title
