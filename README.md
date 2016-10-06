@@ -4,7 +4,7 @@
 
 App is created using [expressjs framework](https://expressjs.com/)
 
-Install packages using ```npm install``
+Install packages using ```npm install```
 
 Run the specific task using following command:
 
